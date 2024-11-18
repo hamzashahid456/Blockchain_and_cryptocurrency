@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/07_FixedArray.sol": "Fix"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/07_FixedArray.sol": {
+			"keccak256": "0xabf470f793550c954f9f5982f788ecfa39df9b1e6aed5078dadf0ba3351d32ea",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://218afecda937bf8d0a94dcd79789cd6371494f973c743798ad18ff580e8d9eec",
+				"dweb:/ipfs/Qmayuk3pNKJ7Y6PEadudG1CVG5ejzsuzkJDif7F1Vec7Vm"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getArrays",
+				"outputs": [
+					{
+						"internalType": "uint8[5]",
+						"name": "stateArr",
+						"type": "uint8[5]"
+					},
+					{
+						"internalType": "uint8[5]",
+						"name": "localMemArr",
+						"type": "uint8[5]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArraysView",
+				"outputs": [
+					{
+						"internalType": "uint8[5]",
+						"name": "stateArr",
+						"type": "uint8[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/22_ReceiveTransferCurrency.sol": "ReciveT"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/22_ReceiveTransferCurrency.sol": {
+			"keccak256": "0xbfce73712f72cfea7bccffd731265c8359736f80c3dbff0ae58ae28fcd5b108b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://041f1eac3a79450c8f820f8f749e6be4a4bcbe8252ceef11c59ff699cd0f2cf0",
+				"dweb:/ipfs/Qmdnd4SXEJUd715pcGSfkP1xz8x423jFLxiNYAkHqUtugY"
+			]
+		}
+	},
+	"version": 1
+}

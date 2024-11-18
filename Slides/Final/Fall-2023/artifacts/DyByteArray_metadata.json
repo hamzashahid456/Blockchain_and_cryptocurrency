@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getB1At",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "_b1",
+						"type": "bytes1"
+					}
+				],
+				"name": "setValueB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/10_DynamicByteArray.sol": "DyByteArray"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/10_DynamicByteArray.sol": {
+			"keccak256": "0x896cac7b22f631f285683cadfdf6ee0d6e6fc66472c02cf96be09270c4ae1be3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://51b991b1fce274c3652692d90c1cc5101f5f177027588616ef512ed0bc3c38f7",
+				"dweb:/ipfs/Qmc393giSnicDYUFvstUspzG2MGsYMTWRUi7XgdGSzh6c4"
+			]
+		}
+	},
+	"version": 1
+}

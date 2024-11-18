@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/06_Overflow.sol": "IntegerOverflow"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/06_Overflow.sol": {
+			"keccak256": "0x75d03016228100711d4031c818ec1e62a939cc5102ef3459c816a9ca305cb30d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb79988287c77d5483efb595b8c3094126546c5d4d6ffbd2cf6be877bc3e9c0e",
+				"dweb:/ipfs/QmdfmPhfEhDdWWMj45qqHUTdmqvb7ohJmqnaFPk4tuSMur"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferDirectly",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/31_SpecialMethods.sol": "Payment"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/31_SpecialMethods.sol": {
+			"keccak256": "0xe31641e63bfe84fd658c0d5a1294ebba2f08a8d29a5ec41548f00bda61eecbfc",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3b93426b510edc3870fcad86e9d3f34b7689119413bbb53170949fe01be21e03",
+				"dweb:/ipfs/QmY1NFr1KUtJqZ4Wx27KzHCgkABDS8SggHJ1XwsHLmFjVL"
+			]
+		}
+	},
+	"version": 1
+}

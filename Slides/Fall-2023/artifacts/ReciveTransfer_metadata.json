@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payCurrency",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferCurrency",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/22_ReceiveTransferCurrency.sol": "ReciveTransfer"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/22_ReceiveTransferCurrency.sol": {
+			"keccak256": "0x7a3c2eb42bc6388b3dc14666b0f1987bcf663c1cda9c3c4cdd7eddacb9240280",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3bbf3182fd95bc9f93c6781eedd9456fe8c506c1923f8ba2a215b53991873d1d",
+				"dweb:/ipfs/Qmb92ryrqAywHCukMJCsvbnnyFhY7C1ppZwekuTSqXuiHt"
+			]
+		}
+	},
+	"version": 1
+}

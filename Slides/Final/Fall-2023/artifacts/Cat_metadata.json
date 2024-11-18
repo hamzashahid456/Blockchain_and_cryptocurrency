@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "utterance",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/27_AbstractContract.sol": "Cat"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/27_AbstractContract.sol": {
+			"keccak256": "0xb7d02b9dd47a11bb329f5e8213c92cf50b1ee6134da67817647e7e765aff01b8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://79258f2d879137b5e6996985a711f7c6ed415ece2c0051a92cd9d0f9297a7428",
+				"dweb:/ipfs/QmQMLntMQVomJfBkAMhQuGjdA7uJQF91WAwZDLoJMoenpq"
+			]
+		}
+	},
+	"version": 1
+}

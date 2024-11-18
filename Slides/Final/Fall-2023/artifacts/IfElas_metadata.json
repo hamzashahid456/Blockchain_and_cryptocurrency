@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "getB1At",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes1",
+						"name": "_b1",
+						"type": "bytes1"
+					}
+				],
+				"name": "setValueB",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/14_IfElseCondition.sol": "IfElas"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/14_IfElseCondition.sol": {
+			"keccak256": "0xd351bdedbefd0bd7668ae07d8e74f29e634a7c97e01d073b5e7653071dc19fc2",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4e006b2cd66a08c8fb5c488aaf108d0bab4fab3fa94ef24e5d4282317f71fe6e",
+				"dweb:/ipfs/QmSg5QDkoW1Awg2DXDYLhFAVGT3FY6ZL59ZbH4tU8nGyog"
+			]
+		}
+	},
+	"version": 1
+}

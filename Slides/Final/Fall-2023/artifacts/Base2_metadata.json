@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/26_MultipleInheritance.sol": "Base2"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/26_MultipleInheritance.sol": {
+			"keccak256": "0xb31307e32ce6c6d0402e158b6207d1881698699a111a2653d9f766b67c017809",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://74cd8c00c9069febfb21d51aebbe75cb4bbc7fb22a0d798482c6b9234f64a9dd",
+				"dweb:/ipfs/QmXZa3F3kYCfWAwBAY4Kfud2SwuGGDw2FYMGMHL5rsRQDX"
+			]
+		}
+	},
+	"version": 1
+}

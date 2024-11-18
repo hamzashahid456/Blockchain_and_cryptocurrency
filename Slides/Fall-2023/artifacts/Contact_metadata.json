@@ -1,0 +1,96 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nameKey",
+						"type": "string"
+					}
+				],
+				"name": "getContact",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nameKey",
+						"type": "string"
+					}
+				],
+				"name": "removeContact",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "nameKey",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "contact",
+						"type": "string"
+					}
+				],
+				"name": "setContact",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/16_Mapping.sol": "Contact"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/16_Mapping.sol": {
+			"keccak256": "0xf893c953a2e73aad7ef5428360364721a0e05a0e6b1fd3eb918438067c82860f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3f6189c43145c02969939bb5e00531568b49d65d10b4077f10180d9a4966fa9f",
+				"dweb:/ipfs/QmTStgr7RhKdKAShhaayTqmVt1A6fxFWSY4mQFGft26usw"
+			]
+		}
+	},
+	"version": 1
+}

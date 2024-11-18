@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getArrays",
+				"outputs": [
+					{
+						"internalType": "uint8[5]",
+						"name": "stateArr",
+						"type": "uint8[5]"
+					},
+					{
+						"internalType": "uint8[5]",
+						"name": "localMemArr",
+						"type": "uint8[5]"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getArraysView",
+				"outputs": [
+					{
+						"internalType": "uint8[5]",
+						"name": "stateArr",
+						"type": "uint8[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/21_StorageVsMemory.sol": "StorageStorage"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/21_StorageVsMemory.sol": {
+			"keccak256": "0x01411f874ae2cb3eeb2e13264e66e9387cc908dbb069ff742027988e8a48257b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5de48779926b45f605940827d7fc4e73e2f0ee02822919361a42ce40ffb82ea3",
+				"dweb:/ipfs/QmfMqrGNUwTasvKGBzv5svtHP34NAdbjTLXvMPBWGVMJwj"
+			]
+		}
+	},
+	"version": 1
+}

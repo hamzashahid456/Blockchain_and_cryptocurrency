@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipient",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/28_Interface.sol": "Token"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/28_Interface.sol": {
+			"keccak256": "0x6a4e7e863bbf8c86effdd9026f6c2ee1b0d039fef38b857065cde5df6b8a7965",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a995df5e493b748382fd6decc0746ed073994acf3cdc9454f52314cff0115a32",
+				"dweb:/ipfs/QmfGENxBx3xqWAekFLQvAxaVtxvXFTtjYDuGUb3krjXzqm"
+			]
+		}
+	},
+	"version": 1
+}

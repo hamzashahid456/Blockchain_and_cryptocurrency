@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getDay",
+				"outputs": [
+					{
+						"internalType": "enum Day",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDayName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Day",
+						"name": "_day",
+						"type": "uint8"
+					}
+				],
+				"name": "setDay",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/15_EnumType.sol": "EnumType"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/15_EnumType.sol": {
+			"keccak256": "0x4ac26cc7373fa9e574cdd6a3697565b150f6683ce1290ed3b71e73d699c65974",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f4d68e79758c59dc80344f2321e3bfe1a52df3543a0480f300a52b732ecf6517",
+				"dweb:/ipfs/QmNvxGp51S1KuKUYKT65mbh3Pi4JmuM7DjPZEiWQYK8oK9"
+			]
+		}
+	},
+	"version": 1
+}

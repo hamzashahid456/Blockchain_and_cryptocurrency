@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payCurrency",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/29_ReceiveCurrency.sol": "ReciveTransfer"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/29_ReceiveCurrency.sol": {
+			"keccak256": "0x2feb29fd4098ac6f13ba5c3c4830df047f24075f52b2548fd53ace72bca3a1a0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a4f23eea70ab4d190c252ca88a05be178568be046471b60250159296717f9b91",
+				"dweb:/ipfs/QmZ9yhwwX2KexNi58zFZpVgCMf5CsArWSGhFm5VikuiGLn"
+			]
+		}
+	},
+	"version": 1
+}

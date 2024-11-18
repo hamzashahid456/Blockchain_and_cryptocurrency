@@ -1,0 +1,7 @@
+names = ["Alice", "Bob", "Charlie", "David", "Eva", "Frank", "Grace", "Hank", "Ivy", "Jack"]
+    
+    with open('dummy_data.txt', 'w') as file:
+        for _ in range(num_students):
+            name = random.choice(names)
+            marks = random.randint(0, 100)
+            file.write(f"{name},{marks}\n")

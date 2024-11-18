@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValues",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setValues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/11_ForLoop.sol": "ForLoop"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/11_ForLoop.sol": {
+			"keccak256": "0xd21e3a8691e0ca92cc1857da059dc1b96a0ff4579bb54fc5fd52fd07529ccd20",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9f54afb8a7c8e879b41ed324dfeffd2f04f5aa9d0b52023e472c11438392c6d2",
+				"dweb:/ipfs/QmQ45pQfN7fZAadHWTWCLKbjmZBDE9zu98wrSUTeczpE9S"
+			]
+		}
+	},
+	"version": 1
+}

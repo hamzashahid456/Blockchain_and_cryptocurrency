@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "getContact",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "contact",
+						"type": "string"
+					}
+				],
+				"name": "setContact",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/15_Mapping.sol": "Cot"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/15_Mapping.sol": {
+			"keccak256": "0x96fa39b39b0263e21ae52fa44df51a6dce1a55c1bce63a6a63ba401801db4878",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f7ad9501a49b713404753758d7aba200fd8e7f7d8cfee0c06b5e286874531f47",
+				"dweb:/ipfs/QmepcZ3LDXaQb24hiHprMnXSvYL7ijTMGoP2KqBnG1YMVf"
+			]
+		}
+	},
+	"version": 1
+}

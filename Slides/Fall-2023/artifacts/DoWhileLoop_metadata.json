@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValues",
+				"outputs": [
+					{
+						"internalType": "uint256[5]",
+						"name": "",
+						"type": "uint256[5]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setValues",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/13_DoWhileLoop1.sol": "DoWhileLoop"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/13_DoWhileLoop1.sol": {
+			"keccak256": "0xbba9a20aa0986a9a071149021168194705e00499b197849221054dc83c9a97a4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://75e31c6122c3a538874a6f79ca489ceffde1f640f3599cb8afd17d14b7545f13",
+				"dweb:/ipfs/QmQizr8e2s5k8d1dt1DGWw2eJFSeLhDeKBJCqTCKSCYSEt"
+			]
+		}
+	},
+	"version": 1
+}

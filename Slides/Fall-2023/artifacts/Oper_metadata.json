@@ -1,0 +1,94 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "shift",
+						"type": "uint256"
+					}
+				],
+				"name": "arithmeticLeftShift",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "shift",
+						"type": "uint256"
+					}
+				],
+				"name": "bitwiseLeftShift",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Fall-2023/Contract06.sol": "Oper"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Fall-2023/Contract06.sol": {
+			"keccak256": "0x0b391598e2f28789a7080b55cdccc9f544137aa43f8619f4dbf6a95d6bae4239",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8ce4ac87b986ebdece94cec7ebb8aff556d81e4587c3d3b0cfea81d9c0882888",
+				"dweb:/ipfs/QmfW3si4Nwq2VYT5tDzijJgV2ZnV37gW51ZDnD16KLb2v7"
+			]
+		}
+	},
+	"version": 1
+}
